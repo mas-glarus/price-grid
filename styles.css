@@ -1,3 +1,7 @@
+* {
+	font-family: Karla;
+}
+
 section {
 	height: 100vh;
 	display: flex;
@@ -8,12 +12,33 @@ section {
 
 .card {
 	height: 500px;
-	width: 600px;
+	width: 700px;
 }
 
 .top {
 	background-color: white;
 	height: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+h1 {
+	color: hsl(179, 52%, 56%);
+	padding: 40px 0px 0px 40px;
+	font-size: 26px;
+}
+
+.thirty-day {
+	color: hsl(71, 73%, 54%);
+	padding: 0px 0px 0px 40px;
+	font-size: 20px;
+}
+
+.top-text {
+	color: hsl(218, 22%, 67%);
+	padding: 0px 0px 0px 40px;
+	font-size: 16px;
+	line-height: 150%;
 }
 
 .bottom {
@@ -22,14 +47,16 @@ section {
 
 .bottom-left,
 .bottom-right {
-	width: 300px;
+	width: 350px;
 	height: 270px;
 }
 
 .bottom-left {
 	background-color: hsl(179, 52%, 56%);
+	border-bottom-left-radius: 15px;
 }
 
 .bottom-right {
 	background-color: hsl(179, 56%, 65%);
+	border-bottom-right-radius: 15px;
 }
