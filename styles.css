@@ -28,10 +28,17 @@ h1 {
 	font-size: 26px;
 }
 
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
 .thirty-day {
 	color: hsl(71, 73%, 54%);
 	padding: 0px 0px 0px 40px;
-	font-size: 20px;
 }
 
 .top-text {
@@ -39,6 +46,48 @@ h1 {
 	padding: 0px 0px 0px 40px;
 	font-size: 16px;
 	line-height: 150%;
+}
+
+.monthly-sub {
+	padding: 50px 0px 0px 40px;
+	margin: 0;
+}
+
+.price {
+	font-size: 32px;
+	padding: 0px 0px 0px 40px;
+	margin: 0;
+}
+
+.pricing {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.per-month {
+	font-weight: 400;
+	font-size: 16px;
+	color: hsl(179, 52%, 80%);
+	padding-left: 15px;
+}
+
+.full-access {
+	padding: 0px 0px 0px 40px;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.signup {
+	background-color: hsl(71, 73%, 54%);
+	font-size: 16px;
+	color: white;
+	padding: 17px 100px;
+	margin-left: 40px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 5px 10px hsla(179, 56%, 35%, 0.425);
 }
 
 .bottom {
@@ -52,8 +101,9 @@ h1 {
 }
 
 .bottom-left {
-	background-color: hsl(179, 52%, 56%);
+	background-color: hsl(179, 55%, 50%);
 	border-bottom-left-radius: 15px;
+	color: rgb(245, 245, 245);
 }
 
 .bottom-right {
