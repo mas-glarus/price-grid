@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .thirty-day {
@@ -46,6 +46,22 @@ h3 {
 	padding: 0px 0px 0px 40px;
 	font-size: 16px;
 	line-height: 150%;
+}
+
+.bottom {
+	display: flex;
+}
+
+.bottom-left,
+.bottom-right {
+	width: 350px;
+	height: 270px;
+	color: rgb(245, 245, 245);
+}
+
+.bottom-left {
+	background-color: hsl(179, 55%, 50%);
+	border-bottom-left-radius: 15px;
 }
 
 .monthly-sub {
@@ -90,23 +106,19 @@ h3 {
 	box-shadow: 5px 10px hsla(179, 56%, 35%, 0.425);
 }
 
-.bottom {
-	display: flex;
-}
-
-.bottom-left,
 .bottom-right {
-	width: 350px;
-	height: 270px;
-}
-
-.bottom-left {
-	background-color: hsl(179, 55%, 50%);
-	border-bottom-left-radius: 15px;
-	color: rgb(245, 245, 245);
-}
-
-.bottom-right {
-	background-color: hsl(179, 56%, 65%);
+	background-color: hsl(179, 50%, 58%);
 	border-bottom-right-radius: 15px;
+}
+
+.why-us {
+	padding: 50px 0px 0px 40px;
+	margin: 0;
+}
+
+.explain-why {
+	padding-left: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	color: hsl(180, 94%, 86%);
 }
