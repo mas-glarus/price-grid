@@ -1,0 +1,35 @@
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+	height: 500px;
+	width: 600px;
+}
+
+.top {
+	background-color: white;
+	height: 230px;
+}
+
+.bottom {
+	display: flex;
+}
+
+.bottom-left,
+.bottom-right {
+	width: 300px;
+	height: 270px;
+}
+
+.bottom-left {
+	background-color: hsl(179, 52%, 56%);
+}
+
+.bottom-right {
+	background-color: hsl(179, 56%, 65%);
+}
